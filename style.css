@@ -1,0 +1,61 @@
+* {
+    background: #e0e0e0;
+  }
+
+  body {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .welcome {
+    font-size: 16px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-top: 20px;
+    border-color: #a2c11c;
+    border-radius: 30px;
+    border-style:ridge;
+    border-width: 2px;
+    padding: 10px;
+
+  }
+
+  .home {
+    color: whitesmoke;
+    font-size: 40px;
+    background-image: url(../wolf-family.jpeg);
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-repeat: no-repeat;
+    background-size: 900px;
+    outline: solid;
+    text-align: center;
+    background-position: center;
+    object-fit: fill;
+  }
+
+  nav ul {
+    /*around the nav */
+    justify-content: flex-end;
+    border-style: hidden;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color:#e0e0e0;
+  }
+
+  nav a {
+    /*nav bar*/
+    color:#2c5d63;
+    background-color: #a2c11c;
+    display: flex;
+    justify-content:space-around;
+    margin-right: 20px;
+    border-style: hidden;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+  }
+
+  nav a:hover {
+    background-color: white;
+    transition: 1s;
+}
