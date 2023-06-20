@@ -227,6 +227,11 @@ div {
   font-style: oblique;
   font-size: 30px;
 }
+
+.dark-mode #mode{
+  color:#e0e0e0;
+}
+
 .facts {
   margin-top: 100px;
   font-weight: 10;
